@@ -14,6 +14,7 @@
       "TotalFactura": 18000,
       "Subtotal": 15400,
       "IVA": 2600,
+      "Retencion": 0,
       "Estado": "primerRecordatorio",
       "Pagada": false
     },
@@ -26,6 +27,7 @@
       "TotalFactura": 43000,
       "Subtotal": 34600,
       "IVA": 8400,
+      "Retencion": 0,
       "Estado": "segundoRecordatorio",
       "Pagada": false
     }
@@ -47,6 +49,33 @@
       "TotalFactura": 25000,
       "Subtotal": 18600,
       "IVA": 6400,
+      "Retencion": 0,
+      "Estado": "primerRecordatorio",
+      "Pagada": false
+    },
+    {
+      "_id": {
+        "$oid": "63c1a0f1bb89d83663d0f207"
+      },
+      "CodigoFactura": "P-00007",
+      "Ciudad": "Bogota",
+      "TotalFactura": 25000,
+      "Subtotal": 18600,
+      "IVA": 6400,
+      "Retencion": 0,
+      "Estado": "primerRecordatorio",
+      "Pagada": false
+    },
+    {
+      "_id": {
+        "$oid": "63c1a0f1bb11d83663d0f207"
+      },
+      "CodigoFactura": "P-00005",
+      "Ciudad": "Pasto",
+      "TotalFactura": 18000,
+      "Subtotal": 15400,
+      "IVA": 2600,
+      "Retencion": 0,
       "Estado": "primerRecordatorio",
       "Pagada": false
     }
@@ -68,6 +97,7 @@
       "TotalFactura": 18000,
       "Subtotal": 15400,
       "IVA": 2600,
+      "Retencion": 0,
       "Estado": "primerRecordatorio",
       "Pagada": false
     },
@@ -75,23 +105,12 @@
       "_id": {
         "$oid": "15c1a09abb23d83663d0f208"
       },
-      "CodigoFactura": "P-00007",
+      "CodigoFactura": "P-00004",
       "Ciudad": "Leticia",
       "TotalFactura": 43000,
       "Subtotal": 34600,
       "IVA": 8400,
-      "Estado": "segundoRecordatorio",
-      "Pagada": false
-    },
-    {
-      "_id": {
-        "$oid": "15c1a09abb23d83663d0f208"
-      },
-      "CodigoFactura": "P-00008",
-      "Ciudad": "Armenia",
-      "TotalFactura": 43000,
-      "Subtotal": 34600,
-      "IVA": 8400,
+      "Retencion": 0,
       "Estado": "segundoRecordatorio",
       "Pagada": false
     }

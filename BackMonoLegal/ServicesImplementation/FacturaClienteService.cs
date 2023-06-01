@@ -27,7 +27,7 @@ namespace BackMonoLegal.ServicesImplementation
         {
             var cliente = await clienteRepository.GetById(clienteId);
 
-            if (cliente != null && cliente.Facturas!=null)
+            if (cliente != null)
             {
                 var tareasActualizacion = new List<Task>();
 
