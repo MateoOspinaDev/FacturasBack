@@ -1,0 +1,156 @@
+[{
+  "_id": {
+    "$oid": "63c1a09abb23d83663d0f207"
+  },
+  "Nombre": "Mateo Ospina",
+  "Email": "marjolaine.schmitt87@ethereal.email",
+  "Facturas": [
+    {
+      "_id": {
+        "$oid": "63c1a09abb23d83663d0f206"
+      },
+      "CodigoFactura": "P-00001",
+      "Ciudad": "Medellin",
+      "TotalFactura": 18000,
+      "Subtotal": 15400,
+      "IVA": 2600,
+      "Estado": "primerRecordatorio",
+      "Pagada": false
+    },
+    {
+      "_id": {
+        "$oid": "15c1a09abb23d83663d0f208"
+      },
+      "CodigoFactura": "P-00002",
+      "Ciudad": "Rionegro",
+      "TotalFactura": 43000,
+      "Subtotal": 34600,
+      "IVA": 8400,
+      "Estado": "segundoRecordatorio",
+      "Pagada": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63c1a09abb23d83663d0f204"
+  },
+  "Nombre": "Adriana Giraldo",
+  "Email": "marjolaine.schmitt87@ethereal.email",
+  "Facturas": [
+    {
+      "_id": {
+        "$oid": "63c1a0f1bb23d83663d0f207"
+      },
+      "CodigoFactura": "P-00003",
+      "Ciudad": "Bogota",
+      "TotalFactura": 25000,
+      "Subtotal": 18600,
+      "IVA": 6400,
+      "Estado": "primerRecordatorio",
+      "Pagada": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63c1a09abb23d83663d0f237"
+  },
+  "Nombre": "Pedro Paramo",
+  "Email": "marjolaine.schmitt87@ethereal.email",
+  "Facturas": [
+    {
+      "_id": {
+        "$oid": "63c1a09abb23d83663d0f206"
+      },
+      "CodigoFactura": "P-00006",
+      "Ciudad": "Bucaramanga",
+      "TotalFactura": 18000,
+      "Subtotal": 15400,
+      "IVA": 2600,
+      "Estado": "desactivado",
+      "Pagada": false
+    },
+    {
+      "_id": {
+        "$oid": "15c1a09abb23d83663d0f208"
+      },
+      "CodigoFactura": "P-00007",
+      "Ciudad": "Leticia",
+      "TotalFactura": 43000,
+      "Subtotal": 34600,
+      "IVA": 8400,
+      "Estado": "desactivado",
+      "Pagada": false
+    },
+    {
+      "_id": {
+        "$oid": "15c1a09abb23d83663d0f308"
+      },
+      "CodigoFactura": "P-00008",
+      "Ciudad": "Armenia",
+      "TotalFactura": 43000,
+      "Subtotal": 34600,
+      "IVA": 8400,
+      "Estado": "desactivado",
+      "Pagada": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "63c1a09abb23d83663d0f208"
+  },
+  "Nombre": "Jorge Hurtado",
+  "Email": "marjolaine.schmitt87@ethereal.email",
+  "Facturas": [
+    {
+      "_id": {
+        "$oid": "63d55a1ffe77113c10c5893a"
+      },
+      "CodigoFactura": "P-00004",
+      "Ciudad": "Cartagena",
+      "TotalFactura": 43000,
+      "Subtotal": 34600,
+      "IVA": 8400,
+      "Estado": "segundoRecordatorio",
+      "Pagada": "False"
+    },
+    {
+      "_id": {
+        "$oid": "63d55a1jje77113c10c5893a"
+      },
+      "CodigoFactura": "P-00005",
+      "Ciudad": "Santa Marta",
+      "TotalFactura": 43000,
+      "Subtotal": 34600,
+      "IVA": 8400,
+      "Estado": "primerRecordatorio",
+      "Pagada": "False"
+    },
+    {
+      "_id": {
+        "$oid": "63d55a1zze77113c10c5893a"
+      },
+      "CodigoFactura": "P-00006",
+      "Ciudad": "Marinilla",
+      "TotalFactura": 43000,
+      "Subtotal": 34600,
+      "IVA": 8400,
+      "Estado": "primerRecordatorio",
+      "Pagada": "False"
+    },
+    {
+      "_id": {
+        "$oid": "63d55a1dde77113c10c5893a"
+      },
+      "CodigoFactura": "P-00007",
+      "Ciudad": "Tunja",
+      "TotalFactura": 43000,
+      "Subtotal": 34600,
+      "IVA": 8400,
+      "Estado": "segundoRecordatorio",
+      "Pagada": "False"
+    }
+  ]
+}]
