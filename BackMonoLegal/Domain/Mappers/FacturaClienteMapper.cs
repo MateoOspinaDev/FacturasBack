@@ -9,12 +9,16 @@ namespace BackMonoLegal.Domain.Mappers
     {
         public static List<FacturaClienteDTO> MapClientesToDTO(List<Cliente> clientes)
         {
-            List<FacturaClienteDTO> dtos = new List<FacturaClienteDTO>();
+            List<FacturaClienteDTO> dtos = new();
 
             foreach (var cliente in clientes)
             {
                 IEnumerable<FacturaClienteDTO> collection()
                 {
+                    if(cliente.Facturas == null)
+                    {
+                        yield break;
+                    }
                     foreach (Factura factura in cliente.Facturas)
                     {
                         var dto = new FacturaClienteDTO

@@ -68,7 +68,7 @@
       "TotalFactura": 18000,
       "Subtotal": 15400,
       "IVA": 2600,
-      "Estado": "desactivado",
+      "Estado": "primerRecordatorio",
       "Pagada": false
     },
     {
@@ -80,77 +80,20 @@
       "TotalFactura": 43000,
       "Subtotal": 34600,
       "IVA": 8400,
-      "Estado": "desactivado",
+      "Estado": "segundoRecordatorio",
       "Pagada": false
     },
     {
       "_id": {
-        "$oid": "15c1a09abb23d83663d0f308"
+        "$oid": "15c1a09abb23d83663d0f208"
       },
       "CodigoFactura": "P-00008",
       "Ciudad": "Armenia",
       "TotalFactura": 43000,
       "Subtotal": 34600,
       "IVA": 8400,
-      "Estado": "desactivado",
+      "Estado": "segundoRecordatorio",
       "Pagada": false
-    }
-  ]
-},
-{
-  "_id": {
-    "$oid": "63c1a09abb23d83663d0f208"
-  },
-  "Nombre": "Jorge Hurtado",
-  "Email": "marjolaine.schmitt87@ethereal.email",
-  "Facturas": [
-    {
-      "_id": {
-        "$oid": "63d55a1ffe77113c10c5893a"
-      },
-      "CodigoFactura": "P-00004",
-      "Ciudad": "Cartagena",
-      "TotalFactura": 43000,
-      "Subtotal": 34600,
-      "IVA": 8400,
-      "Estado": "segundoRecordatorio",
-      "Pagada": "False"
-    },
-    {
-      "_id": {
-        "$oid": "63d55a1jje77113c10c5893a"
-      },
-      "CodigoFactura": "P-00005",
-      "Ciudad": "Santa Marta",
-      "TotalFactura": 43000,
-      "Subtotal": 34600,
-      "IVA": 8400,
-      "Estado": "primerRecordatorio",
-      "Pagada": "False"
-    },
-    {
-      "_id": {
-        "$oid": "63d55a1zze77113c10c5893a"
-      },
-      "CodigoFactura": "P-00006",
-      "Ciudad": "Marinilla",
-      "TotalFactura": 43000,
-      "Subtotal": 34600,
-      "IVA": 8400,
-      "Estado": "primerRecordatorio",
-      "Pagada": "False"
-    },
-    {
-      "_id": {
-        "$oid": "63d55a1dde77113c10c5893a"
-      },
-      "CodigoFactura": "P-00007",
-      "Ciudad": "Tunja",
-      "TotalFactura": 43000,
-      "Subtotal": 34600,
-      "IVA": 8400,
-      "Estado": "segundoRecordatorio",
-      "Pagada": "False"
     }
   ]
 }]

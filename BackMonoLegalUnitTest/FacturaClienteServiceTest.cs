@@ -154,7 +154,7 @@ namespace BackMonoLegalUnitTest
             };
             var estadoAnterior = EstadosConstants.PrimerRecordatorio;
 
-            EmailDTO capturedEmail = null;
+            EmailDTO? capturedEmail = null;
             _emailServiceMock.Setup(e => e.SendEmail(It.IsAny<EmailDTO>())).Callback<EmailDTO>(email => capturedEmail = email);
 
             facturaClienteService.SendEstadoFacturaEmail(factura, cliente, estadoAnterior);

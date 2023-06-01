@@ -55,7 +55,7 @@ public class FacturaControllerTests
     public async Task GetAll_ReturnsNotFound_WhenFacturasIsNull()
     {
         // Arrange
-        List<FacturaClienteDTO> facturasDto = null;
+        List<FacturaClienteDTO>? facturasDto = null;
         _facturaServiceMock.Setup(s => s.UpdateEstadoAll()).Verifiable();
         _facturaServiceMock.Setup(s => s.GetAllFacturasClienteDTO()).ReturnsAsync(facturasDto);
 
