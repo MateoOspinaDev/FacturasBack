@@ -85,19 +85,15 @@ namespace BackMonoLegal.ServicesImplementation
         public Factura CambiarEstado(Factura factura)
         {
             var facturaUpdated = factura;
-            Console.WriteLine("En el case");
             switch (facturaUpdated.Estado)
             {
                 case EstadosConstants.PrimerRecordatorio:
-                    Console.WriteLine("En el case 1");
                     facturaUpdated.Estado = EstadosConstants.SegundoRecordatorio;
                     break;
                 case EstadosConstants.SegundoRecordatorio:
-                    Console.WriteLine("En el case 2");
                     facturaUpdated.Estado = EstadosConstants.Desactivado;
                     break;
                 default:
-                    Console.WriteLine("En el case default");
                     break;
             }
 
