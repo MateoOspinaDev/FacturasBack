@@ -161,8 +161,8 @@ namespace BackMonoLegalUnitTest
 
             Assert.NotNull(capturedEmail);
             Assert.Equal(cliente.Email, capturedEmail.To);
-            Assert.Equal("<h1>Cambio de estado en la factura</h1>", capturedEmail.Subject);
-            Assert.Equal($"Hola {cliente.Nombre}<h2>Su factura con ID {factura.CodigoFactura} ha cambiado de estado: {estadoAnterior} a estado: {factura.Estado}.</h2>", capturedEmail.Body);
+            Assert.Equal("Cambio de estado en la factura", capturedEmail.Subject);
+            Assert.Equal($"<h1>Hola {cliente.Nombre}</h1><h2>Su factura con ID {factura.CodigoFactura} ha cambiado de estado: {estadoAnterior} a estado: {factura.Estado}.</h2>", capturedEmail.Body);
         }
 
         [Fact]

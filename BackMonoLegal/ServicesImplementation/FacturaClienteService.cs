@@ -75,8 +75,8 @@ namespace BackMonoLegal.ServicesImplementation
             EmailDTO emailDTO = new()
             {
                 To = cliente.Email,
-                Subject = "<h1>Cambio de estado en la factura</h1>",
-                Body = $"Hola {cliente.Nombre}" +
+                Subject = "Cambio de estado en la factura",
+                Body = $"<h1>Hola {cliente.Nombre}</h1>" +
                 $"<h2>Su factura con ID {factura.CodigoFactura} ha cambiado de estado: {estadoAnterior} a estado: {factura.Estado}.</h2>"
             };
             emailService.SendEmail(emailDTO);
